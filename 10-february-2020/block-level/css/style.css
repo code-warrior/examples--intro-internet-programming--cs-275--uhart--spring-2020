@@ -1,0 +1,8 @@
+body {
+  border: 10px solid black;
+}
+
+header {
+  width: 50%;
+  border: 10px solid blue;
+}
