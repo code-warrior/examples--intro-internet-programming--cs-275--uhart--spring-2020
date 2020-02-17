@@ -1,0 +1,26 @@
+div {
+   margin: 4px;
+   border: 10px solid transparent;
+   padding: 12px;
+   height: 100px;
+}
+
+div:nth-child(1) {
+   background-color: pink;
+   border-color: red;
+}
+
+div:nth-child(2) {
+   background-color: blue;
+   border-color: green;
+}
+
+div:nth-child(3) {
+   background-color: red;
+   border-color: pink;
+}
+
+div:nth-child(4) {
+   background-color: green;
+   border-color: rebeccapurple;
+}
