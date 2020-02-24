@@ -1,0 +1,57 @@
+:root {
+   --vertical-offset--top-fish: 200px;
+   --vertical-offset--bottom-fish: 120px;
+   --horizontal-offset--top-fish: 120px;
+   --horizontal-offset--bottom-fish: 40px;
+   --width--the-sea: 800px;
+   --height--the-sea: 600px;
+   --color--the-sky: hsl(190, 76%, 87%);
+   --image--the-sea: url('../img/sea.png');
+}
+
+#the-sea {
+   position: relative;
+   width: var(--width--the-sea);
+   height: var(--height--the-sea);
+   margin: auto;
+   background: var(--color--the-sky) var(--image--the-sea);
+}
+
+img {
+   position: absolute;
+}
+
+img:nth-child(odd) {
+   transform: rotateY(180deg);
+}
+
+img:nth-child(1),
+img:nth-child(2) {
+   top: var(--vertical-offset--top-fish);
+}
+
+img:nth-child(3),
+img:nth-child(4) {
+   bottom: var(--vertical-offset--bottom-fish);
+}
+
+img:nth-child(1) {
+   left: var(--horizontal-offset--top-fish);
+}
+
+img:nth-child(2) {
+   right: var(--horizontal-offset--top-fish);
+}
+
+img:nth-child(3) {
+   left: var(--horizontal-offset--bottom-fish);
+}
+
+img:nth-child(4) {
+   right: var(--horizontal-offset--bottom-fish);
+}
+
+h1,
+p {
+   text-align: center;
+}
