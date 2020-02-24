@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position: Relative</title>
+  <style>
+    :root {
+      --offset: 15deg;
+    }
+    div {
+      width: 100px;
+      height: 100px;
+      position: relative;
+    }
+
+    div:nth-child(1) {
+      background-color: rgba(0%, 50%, 75%, .3);
+      transform: rotate(var(--offset));
+    }
+
+    div:nth-child(2) {
+      bottom: 100px;
+      background-color: rgba(100%, 50%, 25%, .3);
+      transform: rotate(calc(2 * var(--offset)));
+    }
+
+    div:nth-child(3) {
+      top: -200px;
+      background-color: rgba(20%, 80%, 0%, .3);
+      transform: rotate(calc(3 * var(--offset)));
+    }
+
+    div:nth-child(4) {
+      top: -300px;
+      background-color: rgba(16%, 28%, 15%, .3);
+      transform: rotate(calc(4 * var(--offset)));
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Position: Relative</h1>
+  </header>
+  <main>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </main>
+</body>
+</html>
