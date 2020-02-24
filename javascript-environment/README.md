@@ -1,7 +1,7 @@
 # JavaScript Environment
 Before you start working in JavaScript, prepare your programming environment so your style and code is consistent across editors, and so your code is as error-free as possible. EditorConfig will ensure coding style consistency, while ESLint will ensure code quality. Let’s start with EditorConfig.
 
-## Editorconfig
+## EditorConfig
 [EditorConfig](https://editorconfig.org/) helps teams maintain a consistent coding style across different editors/IDEs. It does this through the combination of a plug-in and a configuration file. Let’s start with the plug-in.
 
 ### Installing the EditorConfig Plug-in
