@@ -1,0 +1,28 @@
+.flex-parent {
+   background-color: grey;
+   display: flex;
+   /* justify-content: center; */
+   justify-content: space-evenly;
+   /* flex-direction: column-reverse; */
+}
+
+.flex-child {
+   width: 200px;
+   height: 200px;
+}
+
+.flex-child:nth-child(1) {
+   background-color: red;
+}
+
+.flex-child:nth-child(2) {
+   background-color: green;
+}
+
+.flex-child:nth-child(3) {
+   background-color: blue;
+}
+
+.flex-child:nth-child(4) {
+   background-color: purple;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+section {
+  border: 1px solid black;
+  width: 373px;
+  margin: auto;
+  display: flex;
+}
+
+div {
+  width: 125px;
+  height: 125px;
+}
+
+div:nth-child(1) {
+  background-color: yellow;
+}
+
+div:nth-child(2) {
+  background-color: pink;
+
+}
+
+div:nth-child(3) {
+  background-color: green;
+}
+
+@media (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
+
+  div {
+    width: 100%;
+
+  }
+}
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div></div>
+    <div></div>
+    <div></div>
+  </section>
+
+</body>
+</html>
