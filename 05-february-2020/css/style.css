@@ -1,0 +1,28 @@
+:root {
+  --font-size: 18px;
+  --color--primary: #ddddd;
+
+  font-size: var(--font-size);
+  background-color: var(--color--primary);
+}
+
+ul {
+  --color: green;
+}
+
+li {
+  border: 2px solid pink;
+  color: white;
+}
+
+li {
+  color: black;
+}
+
+ul > li {
+  color: var(--color);
+}
+
+ol > li {
+  color: purple;
+}
