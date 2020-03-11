@@ -1,6 +1,8 @@
 window.onload = () => {
     let input = prompt(`Enter a number`);
 
+    // input = parseInt(input, 10);
+
     alert(`You entered ${input} with a type of ${typeof input}`);
 
     /* Note how the equality operator (==) and strict equality operators (===) make their comparisons. */
