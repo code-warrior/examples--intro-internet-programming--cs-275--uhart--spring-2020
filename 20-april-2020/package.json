@@ -1,0 +1,16 @@
+{
+  "name": "20-april-2020",
+  "version": "1.0.0",
+  "description": "Reload your default browser, triggered by changes made to HTML and JS files.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}
